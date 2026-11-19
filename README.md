@@ -17,3 +17,9 @@ Run from `cmd` or `PowerShell` it patches whichever shell launched it.
 ```
 
 That's it.
+
+Test AMSI with this sample in powershell:
+```
+'AMSI Test Sample: 7e72c3ce-861b-4339-8740-0ac1484c1386'
+```
+if AMSI is still enabled it should trigger
