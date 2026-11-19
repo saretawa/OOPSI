@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="OOPSI/OOPSI.vcxproj" />
+  <Project Path="OOPSI/OOPSI.vcxproj" Id="591df255-2153-42ee-8462-a08f5f2d5458" />
 </Solution>
