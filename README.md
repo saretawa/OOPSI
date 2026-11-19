@@ -2,7 +2,7 @@ Patches AMSI and ETW in your parent shell process so Defender stops seeing what 
 
 How it works
 
-Walks the PEB to find `LoadLibrary` and `GetProcAddress`, uses those to resolve everything else at runtime — no suspicious imports. Finds the parent shell via process snapshot, opens it, and patches `AmsiScanBuffer` and `EtwEventWrite` with ret instructions. All cross-process, all in memory.
+Walks the PEB to find `LoadLibrary` and `GetProcAddress`, uses those to resolve everything else at runtime no suspicious imports. Finds the parent shell via process snapshot, opens it, and patches `AmsiScanBuffer` and `EtwEventWrite` with ret instructions. All cross-process, all in memory.
 
 Bypasses Windows Defender as of November 2026.
 
